@@ -1,0 +1,7 @@
+config.py
+config.py
+reference/
+analysis/
+snaps/
+*.ipynb
+*.pyc
