@@ -1,0 +1,225 @@
+name: fastai
+channels:
+- pytorch
+- defaults
+dependencies:
+- _nb_ext_conf=0.4.0=py36_1
+- anaconda-client=1.6.12=py36_0
+- appnope=0.1.0=py36hf537a9a_0
+- asn1crypto=0.24.0=py36_0
+- bcolz=1.1.2=py36he76a132_0
+- bleach=2.1.3=py36_0
+- bokeh=0.12.14=py36_0
+- bzip2=1.0.6=hd86a083_4
+- ca-certificates=2017.08.26=ha1e5d58_0
+- certifi=2018.1.18=py36_0
+- cffi=1.11.5=py36h342bebf_0
+- chardet=3.0.4=py36h96c241c_1
+- click=6.7=py36hec950be_0
+- cloudpickle=0.5.2=py36_1
+- clyent=1.2.2=py36hae3ad88_0
+- cryptography=2.1.4=py36h842514c_0
+- cycler=0.10.0=py36hfc81398_0
+- cymem=1.31.2=py36_0
+- cytoolz=0.8.2=py36h290905f_0
+- dask=0.17.1=py36_0
+- dask-core=0.17.1=py36_0
+- dbus=1.12.2=h5243cc1_1
+- decorator=4.2.1=py36_0
+- dill=0.2.7.1=py36hdf89ffe_0
+- distributed=1.21.3=py36_0
+- entrypoints=0.2.3=py36hd81d71f_2
+- expat=2.2.5=hb8e80ba_0
+- freetype=2.8=h12048fb_1
+- ftfy=4.4.3=py36_0
+- gettext=0.19.8.1=h15daf44_3
+- glib=2.53.6=h33f6a65_2
+- h5py=2.7.1=py36h39cdac5_0
+- hdf5=1.10.1=ha036c08_1
+- heapdict=1.0.0=py36_2
+- html5lib=1.0.1=py36h2f9c1c0_0
+- icu=58.2=h4b95b61_1
+- idna=2.6=py36h8628d0a_1
+- imageio=2.2.0=py36h5e01289_0
+- intel-openmp=2018.0.0=h8158457_8
+- ipykernel=4.8.2=py36_0
+- ipython=6.2.1=py36h3dda519_1
+- ipython_genutils=0.2.0=py36h241746c_0
+- ipywidgets=7.1.2=py36_0
+- jedi=0.11.1=py36_0
+- jinja2=2.10=py36hd36f9c5_0
+- jpeg=9b=he5867d9_2
+- jsonschema=2.6.0=py36hb385e00_0
+- jupyter=1.0.0=py36_4
+- jupyter_client=5.2.2=py36_0
+- jupyter_console=5.2.0=py36hccf5b1c_1
+- jupyter_core=4.4.0=py36h79cf704_0
+- kiwisolver=1.0.1=py36h792292d_0
+- libcxx=4.0.1=h579ed51_0
+- libcxxabi=4.0.1=hebd6815_0
+- libedit=3.1=hb4e282d_0
+- libffi=3.2.1=h475c297_4
+- libgfortran=3.0.1=h93005f0_2
+- libiconv=1.15=hdd342a3_7
+- libpng=1.6.34=he12f830_0
+- libsodium=1.0.15=hd9e47c5_0
+- libtiff=4.0.9=h0dac147_0
+- libxml2=2.9.7=hab757c2_0
+- locket=0.2.0=py36hca03003_1
+- lzo=2.10=h362108e_2
+- markupsafe=1.0=py36h3a1e703_1
+- matplotlib=2.2.0=py36hfa7797c_0
+- mistune=0.8.3=py36_0
+- mkl=2018.0.1=hfbd8650_4
+- msgpack-numpy=0.4.1=py36h98f623a_0
+- msgpack-python=0.4.8=py36h46767b2_0
+- murmurhash=0.28.0=py36_0
+- nb_anacondacloud=1.4.0=py36_0
+- nb_conda=2.2.1=py36h349edbb_0
+- nb_conda_kernels=2.1.0=py36_0
+- nbconvert=5.3.1=py36h810822e_0
+- nbformat=4.4.0=py36h827af21_0
+- nbpresent=3.0.2=py36hef4c988_1
+- ncurses=6.0=hd04f020_2
+- networkx=2.1=py36_0
+- notebook=5.4.0=py36_0
+- numexpr=2.6.4=py36habcfcfe_0
+- numpy=1.14.2=py36ha9ae307_0
+- olefile=0.45.1=py36_0
+- openssl=1.0.2n=hdbc3d79_0
+- packaging=17.1=py36_0
+- pandas=0.22.0=py36h0a44026_0
+- pandoc=1.19.2.1=ha5e8f32_1
+- pandocfilters=1.4.2=py36h3b0b094_1
+- parso=0.1.1=py36hc90e01c_0
+- partd=0.3.8=py36hf5c4cb8_0
+- path.py=11.0=py36_0
+- patsy=0.5.0=py36_0
+- pcre=8.41=hfb6ab37_1
+- pexpect=4.4.0=py36_0
+- pickleshare=0.7.4=py36hf512f8e_0
+- pillow=5.0.0=py36hfcce615_0
+- pip=9.0.1=py36_5
+- plac=0.9.6=py36_0
+- preshed=1.0.0=py36_0
+- prompt_toolkit=1.0.15=py36haeda067_0
+- psutil=5.4.3=py36h1de35cc_0
+- ptyprocess=0.5.2=py36he6521c3_0
+- pycparser=2.18=py36h724b2fc_1
+- pygments=2.2.0=py36h240cd3f_0
+- pyopenssl=17.5.0=py36h51e4350_0
+- pyparsing=2.2.0=py36hb281f35_0
+- pyqt=5.6.0=py36he5c6137_6
+- pysocks=1.6.8=py36_0
+- pytables=3.4.2=py36hfbd7ab0_2
+- python=3.6.4=hc167b69_1
+- python-dateutil=2.7.0=py36_0
+- pytz=2018.3=py36_0
+- pywavelets=0.5.2=py36h2710a04_0
+- pyyaml=3.12=py36h2ba1e63_1
+- pyzmq=17.0.0=py36h1de35cc_0
+- qt=5.6.2=h9975529_14
+- qtconsole=4.3.1=py36hd96c0ff_0
+- readline=7.0=hc1231fa_4
+- regex=2017.11.09=py36hb672b4b_0
+- requests=2.18.4=py36h4516966_1
+- scikit-image=0.13.1=py36h1de35cc_1
+- scipy=1.0.0=py36h1de22e9_0
+- seaborn=0.8.1=py36h595ecd9_0
+- send2trash=1.5.0=py36_0
+- setuptools=38.5.1=py36_0
+- simplegeneric=0.8.1=py36_2
+- sip=4.18.1=py36h2824476_2
+- six=1.11.0=py36h0e22d5e_1
+- sortedcontainers=1.5.9=py36_0
+- spacy=2.0.9=py36h1702cab_0
+- sqlite=3.22.0=h3efe00b_0
+- statsmodels=0.8.0=py36h9c68fc9_0
+- tblib=1.3.2=py36hda67792_0
+- termcolor=1.1.0=py36_1
+- terminado=0.8.1=py36_1
+- testpath=0.3.1=py36h625a49b_0
+- thinc=6.10.2=py36h1702cab_0
+- tk=8.6.7=h35a86e2_3
+- toolz=0.9.0=py36_0
+- tornado=4.5.3=py36_0
+- tqdm=4.19.5=py36_0
+- traitlets=4.3.2=py36h65bd3ce_0
+- ujson=1.35=py36_0
+- urllib3=1.22=py36h68b9469_0
+- wcwidth=0.1.7=py36h8c6ec74_0
+- webencodings=0.5.1=py36h3b9701d_1
+- wheel=0.30.0=py36h5eb2c71_1
+- widgetsnbextension=3.1.4=py36_0
+- wrapt=1.10.11=py36hc29e774_0
+- xz=5.2.3=h0278029_2
+- yaml=0.1.7=hc338f04_2
+- zeromq=4.2.3=h378b8a2_3
+- zict=0.1.3=py36h71da714_0
+- zlib=1.2.11=hf3cbc9b_2
+- pytorch=0.3.1=py36_cuda0.0_cudnn0.0_2
+- torchvision=0.2.0=py36hf5eb7ec_1
+- pip:
+  - absl-py==0.1.12
+  - astor==0.6.2
+  - awscli==1.14.55
+  - beautifulsoup4==4.6.0
+  - botocore==1.9.8
+  - cliff==2.8.0
+  - cmd2==0.8.1
+  - colorama==0.3.7
+  - configparser==3.5.0
+  - cssselect==1.0.3
+  - docutils==0.14
+  - feather-format==0.4.0
+  - gast==0.2.0
+  - graphviz==0.8.2
+  - grpcio==1.10.0
+  - ipython-genutils==0.2.0
+  - isoweek==1.3.3
+  - jmespath==0.9.3
+  - jupyter-client==5.2.2
+  - jupyter-console==5.2.0
+  - jupyter-contrib-core==0.3.3
+  - jupyter-contrib-nbextensions==0.4.0
+  - jupyter-core==4.4.0
+  - jupyter-highlight-selected-word==0.1.0
+  - jupyter-latex-envs==1.4.4
+  - jupyter-nbextensions-configurator==0.4.0
+  - kaggle-cli==0.12.13
+  - keras==2.1.5
+  - lxml==4.2.0
+  - markdown==2.6.11
+  - mechanicalsoup==0.8.0
+  - mizani==0.4.5
+  - nb-anacondacloud==1.4.0
+  - nb-conda==2.2.1
+  - nb-conda-kernels==2.1.0
+  - opencv-python==3.4.0.12
+  - palettable==3.1.0
+  - pandas-summary==0.0.41
+  - pbr==3.1.1
+  - pdpbox==0.1
+  - plotnine==0.3.0
+  - prettytable==0.7.2
+  - progressbar2==3.34.3
+  - prompt-toolkit==1.0.15
+  - protobuf==3.5.2.post1
+  - pyarrow==0.8.0
+  - pyasn1==0.4.2
+  - pyperclip==1.6.0
+  - python-utils==2.3.0
+  - rsa==3.4.2
+  - s3transfer==0.1.13
+  - schedule==0.5.0
+  - scikit-learn==0.19.1
+  - sklearn-pandas==1.6.0
+  - stevedore==1.28.0
+  - tables==3.4.2
+  - tensorboard==1.6.0
+  - tensorflow==1.6.0
+  - torch==0.3.1.post2
+  - torchtext==0.2.1
+  - werkzeug==0.14.1
+prefix: /Users/pal/miniconda2/envs/fastai
+
