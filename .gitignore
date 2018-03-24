@@ -5,3 +5,13 @@ analysis/
 snaps/
 *.ipynb
 *.pyc
+snaps
+snaps/
+start_paperspace.sh
+stop_paperspace.sh
+.dropbox
+img_store/*
+models/*
+.ipynb_checkpoints/
+eval_img
+training/

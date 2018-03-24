@@ -1,0 +1,5 @@
+timestamp,filename,valid_timestamp,valid_size,categorize_success,pred_class,pred_prob
+2018-03-14 15:47,kc-20180214-174034.png,True,True,True,people,0.99797
+2018-03-14 15:47,kc-20180214-174034.png,True,True,True,people,0.99797
+2018-03-14 15:51,kc-20180214-174034.png,True,True,True,people,0.99797
+2018-03-14 15:53,kc-20180120-155839.png,True,True,True,people,0.98899066
