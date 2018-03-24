@@ -75,9 +75,9 @@ def main(capture):
         if post or ALWAYS_POST:
             slack.post_to_slack(filepath, pred_class)
 
-    if IMAGE_STORE_MODE = 2:
+    if IMAGE_STORE_MODE == 2:
         move_photo(filepath,pred_class, IMG_STORE_DIR)
-    elif IMAGE_STORE_MODE = 1:
+    elif IMAGE_STORE_MODE == 1:
         os.remove(filepath)
 
     return
