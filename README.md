@@ -13,6 +13,8 @@ Example applications:
 + See what % of the time a room is occupied with people
 + .. I dunno .. Record what time the mailman arrives everyday?
 
+
+
 ## What do I need?
 + Python 3.6.4+
 + Pytorch 0.3.1+, FastAI library (included in Repo), Torchvision
