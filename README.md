@@ -21,7 +21,7 @@ Example applications:
 + Pytorch 0.3.1+, FastAI library (included in Repo), Torchvision
 + Jupyter notebook to step through the model training code
 + An IP Camera. We use the Reolink P1 Pro, which works well. Make sure it has an API that enables you to control it via an HTTP request (i.e. Nest will not work)
-+ Numpy, PIL, requests, schedule,
++ Numpy, PIL, requests, schedule, matplotlib (optional)
 + Optional: A GPU to train the model, but can also work on CPU, just slower. We use Paperspace
 
 ## How do I use it?
@@ -38,4 +38,4 @@ Step 5: Train the model using train_model.ipynb. It will create the proper folde
 
 Step 6: Now you can classify. Adjust the parameters in "evaluate.py." Set "MODE" to "evaluate" in "run.py" and go ahead and run the program. It will classify images based on the model, and log + file them appropriately.
 
-Step 7 (optional + customizable): Take some action based on the classification. Right now it's programed to post to a Slack channel when the kitchen is dirty for at least 21 minutes consecutively. This will vary by application. 
+Step 7 (optional + customizable): Take some action based on the classification. Right now it's programed to post to a Slack channel when the kitchen is dirty for at least 21 minutes consecutively. This will vary by application.
