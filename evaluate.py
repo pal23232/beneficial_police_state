@@ -24,7 +24,7 @@ import config
 import sys
 
 ## Import fastai library. Included in Git repository
-FASTAI_PATH = '/Users/pal/Dropbox/code/fastai'
+FASTAI_PATH = 'fastai'
 sys.path.append(FASTAI_PATH)
 from fastai.imports import *
 from fastai.transforms import *
