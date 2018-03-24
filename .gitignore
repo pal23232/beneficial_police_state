@@ -3,7 +3,6 @@ config.py
 reference/
 analysis/
 snaps/
-*.ipynb
 *.pyc
 snaps
 snaps/
