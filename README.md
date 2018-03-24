@@ -13,6 +13,9 @@ Example applications:
 + See what % of the time a room is occupied with people
 + .. I dunno .. Record what time the mailman arrives everyday?
 
+![Alt text](clean.png?raw=true "All good in the kitchen")
+![Alt text](dirty.png?raw=true "Get cleaning!")
+
 ## What do I need?
 + Python 3.6.4+
 + Pytorch 0.3.1+, FastAI library (included in Repo), Torchvision
